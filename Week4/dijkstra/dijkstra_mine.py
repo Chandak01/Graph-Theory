@@ -1,7 +1,7 @@
 #Pyhton3
 import sys
 dist=[]
-sptSet = []
+sptSet = [] #when len(sptSet)==n then all points are assigned their minimum distance, hence it is to check that all edges have been relaxed
 SUMOFCOST=0
 high=1000000
 def minn(list):
